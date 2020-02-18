@@ -1,0 +1,29 @@
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0;
+  margin: 15px 0;
+  border: 1px black ridge;
+}
+
+app-square {
+  border: 0.5px lightgrey solid;
+  height: 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+  align-items: center;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  border: 1px #000303 solid;
+  border-radius: 15px;
+  background-color: #47e97a;
+  font-size: large;
+}

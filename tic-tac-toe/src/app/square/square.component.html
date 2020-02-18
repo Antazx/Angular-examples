@@ -1,0 +1,4 @@
+<button *ngIf="!value">{{ value }}</button>
+<button *ngIf="value" [className]="value === 'X' ? 'xPlayer' : 'oPlayer'">
+  {{ value }}
+</button>
